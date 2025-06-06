@@ -62,11 +62,12 @@ const HeroDesktop = () => (
             <div className="absolute inset-0 translate-x-1/2">
                 <div className="relative h-full w-[150%] -ml-[30%]">
                     <Image
-                        src="/pw.png"
+                        src="/pw.avif"
                         alt="Peter Weiser"
                         width={400}
                         height={400}
-                        className="h-full w-auto object-cover hover:grayscale-0 grayscale duration-1000 ease-in-out transition-all mx-auto overflow-visible"
+                        priority
+                        className="h-full w-auto object-cover hover:grayscale-0 grayscale duration-1000 ease-in-out transition-all mx-auto relative z-10"
                         style={{ minHeight: "100%", objectPosition: "center" }}
                     />
                 </div>

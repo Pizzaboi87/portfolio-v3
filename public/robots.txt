@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://peterweiser.com
+
+# Sitemaps
+Sitemap: https://peterweiser.com/sitemap.xml

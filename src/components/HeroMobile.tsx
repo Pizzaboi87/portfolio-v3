@@ -7,7 +7,7 @@ import { Button } from "@/components/Button";
 const HeroMobile = () => (
     <div className="lg:hidden relative h-[100dvh]">
         <Image
-            src="/pw-mobile.png"
+            src="/pw-mobile.avif"
             alt="Peter Weiser"
             fill
             priority
@@ -15,11 +15,11 @@ const HeroMobile = () => (
         />
         <div className="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 via-black/50 to-transparent text-pearl space-y-4">
             <ClipText>
-                <h1 className="xs:text-6xl text-4xl font-bold leading-tight xs:pb-4">
+                <h2 className="xs:text-6xl text-4xl font-bold leading-tight xs:pb-4">
                     <span>Peter{" "}</span>
                     <br className="hidden sm:inline-block" />
                     <span className="sm:block text-gray-400">Weiser</span>
-                </h1>
+                </h2>
             </ClipText>
             <ClipText>
                 <p className="md:text-3xl xs:text-lg text-[0.9rem] pb-2 font-bold">

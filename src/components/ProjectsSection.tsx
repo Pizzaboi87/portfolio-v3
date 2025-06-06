@@ -20,9 +20,9 @@ const ProjectsSection = () => (
                 className="text-center mb-16"
             >
                 <ClipText>
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-pearl">
+                    <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-pearl">
                         Featured Projects
-                    </h2>
+                    </h3>
                     <p className="sm:text-lg xs:text-md text-sm max-w-2xl font-bold mx-auto text-gray-600 dark:text-gray-400">
                         A selection of projects that showcase my skills in frontend development, full-stack applications, and
                         creative problem-solving.
@@ -40,7 +40,7 @@ const ProjectsSection = () => (
                         viewport={{ once: true }}
                         className="group"
                     >
-                        <Card className="relative overflow-hidden border-0 shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-500 bg-pearl dark:bg-gray-700 flex flex-col h-full">
+                        <Card className="relative overflow-hidden border-0 shadow-md lg:hover:-translate-y-2 hover:shadow-xl transition-all duration-500 bg-pearl dark:bg-gray-700 flex flex-col h-full">
                             <div className="relative w-full">
                                 <div className="relative w-full group">
                                     <Link
@@ -52,7 +52,7 @@ const ProjectsSection = () => (
                                     >
                                         <div className="relative w-full aspect-[16/10] overflow-hidden">
                                             <Image
-                                                src={project.image || "/placeholder.svg"}
+                                                src={project.image}
                                                 alt={project.title}
                                                 fill
                                                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -64,7 +64,7 @@ const ProjectsSection = () => (
                             </div>
                             <CardContent className="px-6 pb-6 flex-1 flex flex-col md:-mt-12 -mt-5">
                                 <ClipText>
-                                    <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-pearl">{project.title}</h3>
+                                    <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-pearl">{project.title}</h4>
                                     <p className="sm:text-base xs:text-md text-sm mb-6 text-gray-600 font-semibold dark:text-pearl flex-1">
                                         {project.description}
                                     </p>
@@ -91,7 +91,7 @@ const ProjectsSection = () => (
                                         >
                                             <Icon
                                                 icon="octicon:mark-github-24"
-                                                className="w-5 h-5 md:w-[1.6rem] md:h-[1.6rem] text-gray-900 dark:text-pearl hover:scale-110 ease-in-out duration-300"
+                                                className="w-5 h-5 md:w-[1.6rem] md:h-[1.6rem] text-gray-900 dark:text-pearl hover:scale-150 ease-in-out duration-300"
                                             />
                                         </Link>
                                     )}
@@ -105,7 +105,7 @@ const ProjectsSection = () => (
                                         >
                                             <Icon
                                                 icon="octicon:mark-github-24"
-                                                className="w-5 h-5 md:w-[1.6rem] md:h-[1.6rem] text-gray-900 dark:text-pearl hover:scale-110 ease-in-out duration-300"
+                                                className="w-5 h-5 md:w-[1.6rem] md:h-[1.6rem] text-gray-900 dark:text-pearl hover:scale-150 ease-in-out duration-300"
                                             />
                                         </Link>
                                     )}
@@ -119,7 +119,7 @@ const ProjectsSection = () => (
                                         >
                                             <Icon
                                                 icon="tabler:external-link"
-                                                className="w-5 h-5 md:w-[1.7rem] md:h-[1.7rem] text-gray-900 dark:text-pearl hover:scale-110 ease-in-out duration-300"
+                                                className="w-5 h-5 md:w-[1.7rem] md:h-[1.7rem] text-gray-900 dark:text-pearl hover:scale-150 ease-in-out duration-300"
                                             />
                                         </Link>
                                     )}
@@ -133,7 +133,7 @@ const ProjectsSection = () => (
                                         >
                                             <Icon
                                                 icon="mingcute:youtube-fill"
-                                                className="w-6 h-6 md:w-7 md:h-7 text-gray-900 dark:text-pearl hover:scale-110 ease-in-out duration-300"
+                                                className="w-6 h-6 md:w-7 md:h-7 text-gray-900 dark:text-pearl hover:scale-150 ease-in-out duration-300"
                                             />
                                         </Link>
                                     )}

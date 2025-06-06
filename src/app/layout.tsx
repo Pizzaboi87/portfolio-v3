@@ -17,6 +17,7 @@ const geologica = Geologica({
 
 export const metadata: Metadata = {
   title: "Peter Weiser Portfolio",
+  keywords: "HTML, CSS, JavaScript, TypeScript, React, Next, Tailwind, Frontend, Graphql",
   description:
     "Frontend Developer with strong experience in React, Next.js, TypeScript, and Tailwind CSS. Open to remote opportunities and freelance roles across Europe.",
   metadataBase: new URL("https://peterweiser.com"),
@@ -63,12 +64,31 @@ export default function RootLayout({
           `}
         </Script>
 
+        <Script id="schema-person" type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Peter Weiser",
+              "url": "https://peterweiser.com",
+              "image": "https://peterweiser.com/og-image.png",
+              "jobTitle": "Frontend Developer",
+              "sameAs": [
+                "https://github.com/pizzaboi87",
+                "https://linkedin.com/in/peterweiser87"
+              ]
+            }
+          `}
+        </Script>
+
         {/* Optional redundant tags (already handled by metadata but safe fallback) */}
-        <meta
-          name="description"
-          content="Frontend Developer with strong experience in React, Next.js, TypeScript, and Tailwind CSS. Open to remote opportunities and freelance roles across Europe."
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="UTF-8" />
+        <meta name="theme-color" content="#0f172a" />
         <meta name="author" content="Peter Weiser" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://peterweiser.com/" />
       </head>
       <body
         className={`${manrope.variable} ${geologica.variable} antialiased`}

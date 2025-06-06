@@ -44,9 +44,9 @@ const ContactSection = () => {
                     className="text-center mb-16"
                 >
                     <ClipText>
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-pearl">
+                        <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-pearl">
                             Let’s Work Together
-                        </h2>
+                        </h3>
                         <p className="sm:text-lg xs:text-md text-sm font-semibold max-w-2xl mx-auto text-gray-600 dark:text-gray-400">
                             Have a project in mind? I’d love to hear about it. <br />Let’s build something great together.
                         </p>
@@ -64,7 +64,7 @@ const ContactSection = () => {
                         <Card className="shadow-lg md:h-[28rem] h-[30rem] bg-gray-50 dark:bg-gray-800">
                             <CardContent className="p-8">
                                 <ClipText>
-                                    <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-pearl">Get In Touch</h3>
+                                    <h4 className="text-2xl font-bold mb-6 text-gray-900 dark:text-pearl">Get In Touch</h4>
                                     <div className="space-y-4">
                                         <div className="flex items-center gap-3">
                                             <Icon icon="mdi:alternate-email" className="w-6 h-6 text-gray-700 dark:text-gray-300" />
