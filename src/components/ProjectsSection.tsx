@@ -73,6 +73,7 @@ const ProjectsSection = () => (
                                     {project.tech.map((tech, ti) => (
                                         <Badge
                                             key={ti}
+                                            title={tech}
                                             variant="secondary"
                                             className="bg-gray-200 text-gray-800 dark:bg-gray-600 dark:text-pearl text-xs"
                                         >
