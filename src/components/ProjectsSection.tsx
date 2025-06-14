@@ -38,7 +38,7 @@ const ProjectsSection = () => (
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: index * 0.1 }}
                         viewport={{ once: true }}
-                        className="group"
+                        className={`group ${projects.length % 2 === 1 && index === projects.length - 1 ? "md:col-span-2 md:max-w-[50%] md:mx-auto" : ""}`}
                     >
                         <Card className="relative overflow-hidden border-0 shadow-md lg:hover:-translate-y-2 hover:shadow-xl transition-all duration-500 bg-pearl dark:bg-gray-700 flex flex-col h-full">
                             <div className="relative w-full">
@@ -92,7 +92,7 @@ const ProjectsSection = () => (
                                         >
                                             <Icon
                                                 icon="octicon:mark-github-24"
-                                                className="w-5 h-5 md:w-[1.6rem] md:h-[1.6rem] text-gray-900 dark:text-pearl hover:scale-150 ease-in-out duration-300"
+                                                className="w-5 h-5 md:w-[1.6rem] md:h-[1.6rem] text-gray-900 hover:text-[#0d74e7] dark:text-pearl hover:scale-150 ease-in-out duration-300"
                                             />
                                         </Link>
                                     )}
@@ -106,7 +106,7 @@ const ProjectsSection = () => (
                                         >
                                             <Icon
                                                 icon="octicon:mark-github-24"
-                                                className="w-5 h-5 md:w-[1.6rem] md:h-[1.6rem] text-gray-900 dark:text-pearl hover:scale-150 ease-in-out duration-300"
+                                                className="w-5 h-5 md:w-[1.6rem] md:h-[1.6rem] text-gray-900 hover:text-[#0d74e7] dark:text-pearl hover:scale-150 ease-in-out duration-300"
                                             />
                                         </Link>
                                     )}
@@ -120,7 +120,7 @@ const ProjectsSection = () => (
                                         >
                                             <Icon
                                                 icon="tabler:external-link"
-                                                className="w-5 h-5 md:w-[1.7rem] md:h-[1.7rem] text-gray-900 dark:text-pearl hover:scale-150 ease-in-out duration-300"
+                                                className="w-5 h-5 md:w-[1.7rem] md:h-[1.7rem] text-gray-900 hover:text-[#228B22] dark:text-pearl hover:scale-150 ease-in-out duration-300"
                                             />
                                         </Link>
                                     )}
@@ -134,7 +134,7 @@ const ProjectsSection = () => (
                                         >
                                             <Icon
                                                 icon="mingcute:youtube-fill"
-                                                className="w-6 h-6 md:w-7 md:h-7 text-gray-900 dark:text-pearl hover:scale-150 ease-in-out duration-300"
+                                                className="w-6 h-6 md:w-7 md:h-7 text-gray-900 hover:text-[#CD201F] dark:text-pearl hover:scale-150 ease-in-out duration-300"
                                             />
                                         </Link>
                                     )}

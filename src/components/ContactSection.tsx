@@ -95,7 +95,7 @@ const ContactSection = () => {
                                         rel="noopener noreferrer"
                                         aria-label="Peter Weiser Github Profile"
                                     >
-                                        <Icon icon="octicon:mark-github-24" className="md:w-12 w-10 md:h-12 h-10 text-gray-900 dark:text-pearl cursor-pointer hover:scale-110 transition-transform duration-200" />
+                                        <Icon icon="octicon:mark-github-24" className="md:w-12 w-10 md:h-12 h-10 text-gray-900 hover:text-[#0d74e7] dark:text-pearl cursor-pointer hover:scale-125 transition-transform duration-300" />
                                     </Link>
                                     <Link
                                         href="https://linkedin.com/in/peterweiser87"
@@ -103,7 +103,7 @@ const ContactSection = () => {
                                         rel="noopener noreferrer"
                                         aria-label="Peter Weiser Linkedin Profile"
                                     >
-                                        <Icon icon="mdi:linkedin" className="md:w-14 w-[2.75rem] md:h-14 h-[2.75rem] text-gray-900 dark:text-pearl cursor-pointer hover:scale-110 transition-transform duration-200" />
+                                        <Icon icon="mdi:linkedin" className="md:w-14 w-[2.75rem] md:h-14 h-[2.75rem] text-gray-900 hover:text-[#0072b1] dark:text-pearl cursor-pointer hover:scale-125 transition-transform duration-300" />
                                     </Link>
                                 </div>
                             </CardContent>

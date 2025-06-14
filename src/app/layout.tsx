@@ -82,9 +82,7 @@ export default function RootLayout({
         </Script>
 
         {/* Optional redundant tags (already handled by metadata but safe fallback) */}
-        <meta charSet="UTF-8" />
         <meta name="theme-color" content="#0f172a" />
-        <meta name="author" content="Peter Weiser" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="canonical" href="https://peterweiser.com/" />
       </head>

@@ -1,5 +1,26 @@
 export const projects = [
   {
+    title: "Learn Greek Verbs",
+    description:
+      "Learn Greek Verbs is a mobile learning game for practicing Modern Greek verb conjugation at beginner level. Built with React Native and Expo, it supports four tenses (Present, Simple Past, Imperfect, and Future). Players select a tense and verb, then match randomly shown personal pronouns with the correct verb form displayed on the sails of ancient ships. Features include a lives system, scoring, and SVG-based animated visuals.",
+    tech: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "React Navigation",
+      "Expo Audio",
+      "Expo Font",
+      "React Native svg",
+      "SVG Transformer",
+      "Expo Vector Icons",
+      "Responsive Screen",
+    ],
+    image: "/projects/greek-verbs.webp",
+    frontend: "https://github.com/Pizzaboi87/learn-greek-verbs",
+    live: "https://peterweiser.com/portfolio/learn_greek_verbs.apk",
+    youtube: "https://www.youtube.com/shorts/I2nh-d_Dwco"
+  },
+  {
     title: "Esplend’or Rings",
     description: "Esplend'or Rings is a premium webshop for engagement and wedding rings. Built with Next.js, TypeScript, and Strapi, it offers features like a wishlist, advanced filters, secure Stripe payments, and cart synchronization for both guests and registered users. Fully responsive and elegantly designed, it provides a seamless shopping experience.",
     tech: [
