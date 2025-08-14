@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: "RGS Marketing Website",
+    description:
+      "The official marketing site of Richmond Global Sciences, rebuilt from scratch using Next.js, TypeScript, and Tailwind CSS. Originally a Webflow project, the site was fully reengineered for performance, maintainability, and design consistency. It communicates RGS’s impact-focused data products, ESG-aligned tools, and investment solutions across environmental, social, and governance dimensions. Fully responsive and optimized for public audiences, the site ensures clarity and technical precision in presenting the firm’s methodology and mission.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Axios",
+      "React Hot Toast",
+      "React Fast Marquee",
+      "React Headless Accordion",
+      "React Share"
+    ],
+    image: "/projects/rgs-main.webp",
+    live: "https://rgsciences.com",
+    youtube: "https://www.youtube.com/watch?v=eS_WEsshyxE"
+  },
+  {
     title: "Learn Greek Verbs",
     description:
       "Learn Greek Verbs is a mobile learning game for practicing Modern Greek verb conjugation at beginner level. Built with React Native and Expo, it supports four tenses (Present, Simple Past, Imperfect, and Future). Players select a tense and verb, then match randomly shown personal pronouns with the correct verb form displayed on the sails of ancient ships. Features include a lives system, scoring, and SVG-based animated visuals.",
@@ -17,7 +35,7 @@ export const projects = [
     ],
     image: "/projects/greek-verbs.webp",
     frontend: "https://github.com/Pizzaboi87/learn-greek-verbs",
-    live: "https://peterweiser.com/portfolio/learn_greek_verbs.apk",
+    live: "https://github.com/Pizzaboi87/app-downloads/releases/download/v1.0.0-learn-greek/learn_greek_verbs.apk",
     youtube: "https://www.youtube.com/shorts/I2nh-d_Dwco"
   },
   {
@@ -70,6 +88,7 @@ export const projects = [
       "React DnD"
     ],
     image: "/projects/rift.webp",
+    youtube: "https://youtu.be/Fhs1TOOjdSQ",
     live: "https://rift.rgsciences.com",
   },
   {
@@ -162,7 +181,7 @@ export const projects = [
     ],
     image: "/projects/food-order.webp",
     frontend: "https://github.com/Pizzaboi87/react-native-food-order-app",
-    live: "https://peterweiser.com/portfolio/pizzaboi.apk",
+    live: "https://github.com/Pizzaboi87/app-downloads/releases/download/v1.0.0-pizzaboi/pizzaboi.apk",
     youtube: "https://www.youtube.com/watch?v=5uNL8vnNPj8"
   },
 ]

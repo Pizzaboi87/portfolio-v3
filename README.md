@@ -82,4 +82,7 @@ npm run lint
 ```
 
 Built with clean code, dark coffee, and dangerously sharp CSS edges. ☕
-# portfolio-v3
+
+##### Note
+
+The public directory contains several folders with images that are not related to this portfolio site. These files belong to other projects and were moved here as part of a hosting provider migration.
