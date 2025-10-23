@@ -105,6 +105,14 @@ const ContactSection = () => {
                                     >
                                         <Icon icon="mdi:linkedin" className="md:w-14 w-[2.75rem] md:h-14 h-[2.75rem] text-gray-900 hover:text-[#0072b1] dark:text-pearl cursor-pointer hover:scale-125 transition-transform duration-300" />
                                     </Link>
+                                    <Link
+                                        href="https://youtube.com/@WeiserDev"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Peter Weiser YouTube Channel"
+                                    >
+                                        <Icon icon="iconoir:youtube-solid" className="md:w-14 w-[2.75rem] md:h-14 h-[2.75rem] text-gray-900 hover:text-[#ff0000] dark:text-pearl cursor-pointer hover:scale-125 transition-transform duration-300" />
+                                    </Link>
                                 </div>
                             </CardContent>
                         </Card>

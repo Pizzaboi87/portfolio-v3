@@ -1,5 +1,28 @@
 export const projects = [
   {
+    title: "Adidas Brand Site",
+    description:
+      "The Adidas Brand Site reimagines the Adidas experience through design, interactivity, and intelligent functionality. The site integrates machine learning for natural-language product search, semantic recommendations, and AI-powered comparisons, blending heritage and modern technology. Featuring 3D product models, and smooth animations, it delivers an immersive and performant experience across devices. Additional features include an AI chat scoped to Adidas-related knowledge, a global store locator with Street View, and dynamic Open Graph metadata for SEO.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "GSAP",
+      "Framer Motion",
+      "Three.js",
+      "PostgreSQL",
+      "Zod",
+      "moonshotai/Kimi-K2-Instruct:novita",
+      "franc-min",
+      "sentence-transformers/all-mpnet-base-v2",
+      "@vitalets/google-translate-api",
+    ],
+    image: "/projects/adidas.webp",
+    live: "https://weiser-adidas.vercel.app",
+    frontend: "https://github.com/Pizzaboi87/adidas-brand-site",
+    youtube: "https://youtu.be/seFdUCY5SCM?si=RRxUbiP4eDSEb0PL"
+  },
+  {
     title: "RGS Marketing Website",
     description:
       "The official marketing site of Richmond Global Sciences, rebuilt from scratch using Next.js, TypeScript, and Tailwind CSS. Originally a Webflow project, the site was fully reengineered for performance, maintainability, and design consistency. It communicates RGS’s impact-focused data products, ESG-aligned tools, and investment solutions across environmental, social, and governance dimensions. Fully responsive and optimized for public audiences, the site ensures clarity and technical precision in presenting the firm’s methodology and mission.",
@@ -15,7 +38,7 @@ export const projects = [
     ],
     image: "/projects/rgs-main.webp",
     live: "https://rgsciences.com",
-    youtube: "https://www.youtube.com/watch?v=eS_WEsshyxE"
+    youtube: "https://youtu.be/9sz2vA-TfUE?si=FI5IfLqC9bC9d_Ze"
   },
   {
     title: "Learn Greek Verbs",
@@ -36,7 +59,7 @@ export const projects = [
     image: "/projects/greek-verbs.webp",
     frontend: "https://github.com/Pizzaboi87/learn-greek-verbs",
     live: "https://github.com/Pizzaboi87/app-downloads/releases/download/v1.0.0-learn-greek/learn_greek_verbs.apk",
-    youtube: "https://www.youtube.com/shorts/I2nh-d_Dwco"
+    youtube: "https://youtu.be/owwXpQGKzNQ?si=Hh6w7QwE37rwc9EQ"
   },
   {
     title: "Esplend’or Rings",
@@ -63,6 +86,7 @@ export const projects = [
     frontend: "https://github.com/Pizzaboi87/esplendor-strapi",
     backend: "https://github.com/Pizzaboi87/esplendor-strapi-backend",
     live: "https://esplendor-rings.vercel.app",
+    youtube: "https://youtu.be/JD5IEQGQ_Ns?si=E2B6Mn0vQIo-1-bn"
   },
   {
     title: "RIFT Portal",
@@ -88,8 +112,8 @@ export const projects = [
       "React DnD"
     ],
     image: "/projects/rift.webp",
-    youtube: "https://youtu.be/Fhs1TOOjdSQ",
     live: "https://rift.rgsciences.com",
+    youtube: "https://youtu.be/1TZjP41DIEI?si=i85_bOoPZZQKqX9S",
   },
   {
     title: "Batman Fan Page",
@@ -111,6 +135,7 @@ export const projects = [
     frontend: "https://github.com/Pizzaboi87/batman",
     backend: "https://github.com/Pizzaboi87/batserver",
     live: "https://weiser-batman.netlify.app",
+    youtube: "https://youtu.be/rk0UGvzb22I?si=h7WOzfDL3vNwmyIZ"
   },
   {
     title: "WeisAIR Flights",
@@ -132,6 +157,7 @@ export const projects = [
     image: "/projects/weisair.webp",
     frontend: "https://github.com/Pizzaboi87/weisair-flights",
     live: "https://weisair.vercel.app/",
+    youtube: "https://youtu.be/FMJVeyx7o3g?si=zW1pc2a_IMv115Fz"
   },
   {
     title: "Le Ciel Sucre Pastry",
@@ -160,6 +186,7 @@ export const projects = [
     image: "/projects/pastry.webp",
     frontend: "https://github.com/Pizzaboi87/pastry-shop-website",
     live: "https://ciel-sucre.vercel.app/",
+    youtube: "https://youtu.be/9PgDP26Clq4?si=kxHT5iODZjqzcRQ9"
   },
   {
     title: "Food Order App",
@@ -182,6 +209,6 @@ export const projects = [
     image: "/projects/food-order.webp",
     frontend: "https://github.com/Pizzaboi87/react-native-food-order-app",
     live: "https://github.com/Pizzaboi87/app-downloads/releases/download/v1.0.0-pizzaboi/pizzaboi.apk",
-    youtube: "https://www.youtube.com/watch?v=5uNL8vnNPj8"
+    youtube: "https://youtu.be/EkIuVDYltgA?si=fj8tUKRoKXTrCohr"
   },
 ]
